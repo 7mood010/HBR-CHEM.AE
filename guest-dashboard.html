@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest Dashboard</title>
+    <link rel="stylesheet" href="guest.css">
+</head>
+<body>
+    <div class="centered">
+        <h1>Guest Dashboard</h1>
+        <p>Currently, only EOT-related features are available.</p>
+        <div class="feature-buttons">
+            <button onclick="showFeature('eotResources')">EOT Resources</button>
+            <button onclick="showFeature('eotPptx')">EOT PPTX</button>
+            <button onclick="showFeature('eotPractice')">EOT Practice Smart System</button>
+        </div>
+        <div id="feature-content" class="feature-content">
+            <!-- EOT Content will load here -->
+        </div>
+    </div>
+    <script src="guest.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="centered">
+        <h2>Admin Login</h2>
+        <form id="admin-form">
+            <div class="input-group">
+                <input type="text" id="admin-name" placeholder="Admin Name" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="admin-code" placeholder="Admin Code" required>
+            </div>
+            <button type="button" onclick="validateAdmin()" class="login-button">Login</button>
+        </form>
+    </div>
+    <!-- Ensure admin.js is linked correctly -->
+    <script src="admin.js"></script>
+</body>
+</html>

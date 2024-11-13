@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="centered">
+        <h1>Admin Dashboard</h1>
+        <div class="feature-buttons">
+            <button onclick="showFeature('resources')">EOT Resources</button>
+            <button onclick="showFeature('pptx')">EOT PPTX</button>
+            <button onclick="showFeature('practiceSystem')">EOT Practice System</button>
+        </div>
+        <div id="feature-content" class="feature-content">
+            <!-- Dynamic content will be displayed here -->
+        </div>
+    </div>
+    <script src="admin.js"></script>
+</body>
+</html>
